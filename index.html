@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Inspired_Weather</title>
+	<link rel="shortcut icon" href="images/title_icon.png" />
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/index.css">
+	<link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="wrapper"><!--Wrapper for video from Youtube-->
+    <header>
+        <div class="logo">
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+        </div>
+            <h1>Inspired Weather</h1>
+    </header>
+    <section>
+			<div class="city"><span id="loc"></span></div>
+			<div class="temperature"><span id="temp"></span><span id="celsius">&deg;C</span></div>
+		
+			<div><span id="description"></span></div>
+			<div><span id="humidity"></span><span>%</span><img class="hmd" src="images/hmd.png" alt="humidity"></img></div>
+			<div><span id="pressure"></span><span>hpa</span><img src="images/prs.png" alt="pressure"></img></div>
+		
+    </section>
+    <footer>
+    	<div class="creator">
+  		<a href="https://www.facebook.com/profile.php?id=100010161064334" target="_blank">
+  			<img src="images/creator.png" alt="creator"></a>	  
+  		</div>
+  	
+  	<div class="share">
+            <div class="desc">
+                <p>Share with friends</p>
+            </div>
+        <div class="social">
+      		<a href="http://www.facebook.com/" target="_blank" class="fc"></a>
+      		<a href="http://twitter.com/?lang=uk" target="_blank" class="tw"></a>
+      		<a href="http://ru.pinterest.com/"target="_blank" class="pn"></a>
+      		<a href="http://plus.google.com"target="_blank" class="gp"></a>
+        </div>
+        </div>
+    </footer>
+</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="scripts/weather_script.js"></script>
+	<script type="text/javascript" charset="utf-8" src="scripts/jquery.tubular.1.0.js"></script>
+	<script type="text/javascript" charset="utf-8" src="scripts/video_script.js"></script>
+</body>
+</html>
+
+
+

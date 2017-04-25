@@ -1,0 +1,139 @@
+#wrapper {
+	min-height: 100%;
+	min-width: 100%;
+	z-index:-1;
+	position: fixed;
+	overflow: hidden;
+}
+header {
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	opacity: 0.6;
+	box-shadow: 0 0 10px 10px #fff;
+
+}
+
+
+h1 {
+	font-family: 'Playball', cursive;
+	font-size: 45px;
+	letter-spacing: 3px;
+	padding: 15px 0;
+	margin-left: 20px;
+}
+
+.logo img {
+	width: 70px;
+	height: 70px;
+}
+section {
+	position: absolute;
+	padding-left: 20px;
+	right: 3%;
+	bottom: 20%;
+	width: 300px;
+	height: 320px;
+	background-color:#fff;
+	opacity: 0.3;
+	border-radius: 10px;
+	font-family: 'Playball', cursive;
+	font-size:30px;
+}
+
+section img {
+	width:35px;
+	margin-left: 40px;
+}
+
+.city {
+	font-size: 70px;
+}
+.hmd {
+	margin-top:30px;
+	margin-left:76px;
+}
+.temperature {
+	font-size: 100px;
+}
+#celsius {
+	letter-spacing: -30px;
+	font-size:70px;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 12%;
+	width: 100%;
+	background-color: #fff;
+	opacity: 0.6;
+	box-shadow: 0 0 5px 5px #fff;
+}
+.creator {
+	margin-left: 30px;
+	
+}
+.creator img {
+	width: 130px;
+	height: 77px;
+}
+.desc {
+	font-family: 'Playball', cursive;
+	font-size: 25px;
+	
+}
+.social {
+	margin-right: 30px;
+}
+.social a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: 3px solid #222222;
+	border-radius: 50%;
+	background:url(../images/icons.png) no-repeat;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+}
+.social a.tw {
+	background-position:
+}
+.social a.tw:hover {
+	background-position: 0 -40px;
+	background-color: #00aced;
+	border-color: #00aced;
+}
+.social a.fc{
+	background-position: -40px 0;
+}
+.social a.fc:hover {
+	background-position: -40px -40px;
+	background-color: #3b5998;
+	border-color: #3b5998;
+}
+.social a.pn{
+	background-position: -80px 0;
+}
+.social a.pn:hover {
+	background-position: -80px -40px;
+	background-color: #BD1E23;
+	border-color: #BD1E23;
+}
+.social a.gp{
+	background-position: -120px 0;
+}
+.social a.gp:hover {
+	background-position: -120px -40px;
+	background-color: #d95232;
+	border-color: #d95232;
+}
+
+@media only screen and (max-width : 768px){
+#wrapper {background-color: red;}
+
+}
