@@ -3,7 +3,7 @@ navigator.geolocation.getCurrentPosition(locationSuccess, locationError);
 });
 
 function locationSuccess(position) {
-var weatherAPI = 'https://api.openweathermap.org/data/2.5/forecast?lat='+position.coords.latitude+
+var weatherAPI = 'http://api.openweathermap.org/data/2.5/forecast?lat='+position.coords.latitude+
 '&lon='+position.coords.longitude+'&units=metric&APPID=7d50e3a92cc3853d1849b06543304cd1&callback=?';
 $.getJSON(weatherAPI, function(response) {
 console.log(response);
